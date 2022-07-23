@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Pagina web streaming de peliculas">
+    <meta name="author" content="Freddy Muñoz">
+    <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style-responsive.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <title>Films+</title>
+</head>
+<body class="body-index">
+    <header class="d-flex justify-content-between align-items-center header-index p-4">
+      <div>
+        <a href="index.html" class="text-decoration-none"><img src="img/logo.png" class="img-logo-header" alt=""></a>
+      </div>
+      <div class="buttons-header">
+        <a href="login-page.php"><button type="button" class="btn btn-outline-light btn-lg px-4 m-4" id="btn-login">Iniciar Sesion</button></a>
+        <a href="register-page.php"><button type="button" class="btn btn-outline-light btn-lg px-4 mf-4" id="btn-register">Registrate</button></a>
+      </div>
+    </header>
+    <main class="d-flex main-index">
+        <div class="d-flex justify-content-center align-items-center p-5 flex-column div-index-main">
+            <h3 class="text-white d-flex fw-bolder">Tus peliculas favoritas, todas en un mismo lugar</h3>
+            <h5 class="text-white d-flex">Disfruta de películas de estrenos y de los mejores generos.</h5>
+            <div class="text-white d-flex flex-column mt-5">
+              <h3>Beneficios de la suscripción a Films+:</h3>
+                <p><i class="bi bi-check-lg"></i>&nbsp; Experiencia premium sin cortes comerciales.</p> 
+                <p><i class="bi bi-check-lg"></i>&nbsp; Las mejores historias y pelciculas de Warner, Paraoumnt, Disney, Marvel y otros.</p> 
+                <p><i class="bi bi-check-lg"></i>&nbsp; Mas de 100 titulos en 4k UHD Y HDR</p> 
+              <h6 class="text-danger fw-bolder">* Puedes pagar con tarjeta, debito y a traves de Terceros.</h6> 
+            </div>
+        </div>
+        <div class="d-flex justify-content-center align-items-center w-100 ps-5 div-index-main-absol">
+          <div id="carouselExampleSlidesOnly" class="carousel slide carousel-index" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/maxresdefault.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/portada2.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/imagen3.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/cine-2020-7televalencia.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+          </div>
+        </div>
+    </main>
+    <section id="plans" class="section-ancla d-flex justify-content-between align-items-center p-5">
+        <a href="#plans" class="text-white d-flex justify-content-center align-items-center ancla-href" title="Ver mas"><i class="bi bi-chevron-down fs-2"></i></a>
+        <div class="d-flex justify-content-between align-items-center w-50 div-productoras">
+          <img src="img/pixar.png" alt=""  class="img-logo ms-5">
+          <img src="img/paramount.svg" alt="" class="img-logo ms-5">
+          <img src="img/warner.png" alt=""  class="img-logo ms-5">
+          <img src="img/disney-plus-logo.png" alt=""  class="img-logo ms-5">
+          <img src="img/marvel.png" alt=""  class="img-logo ms-5">
+        </div>
+    </section>
+    <section class="section-plans text-white p-5" id="#plans">
+      <div class="d-flex justify-content-center align-items-center mt-5">
+          <h2 class="fs-1 fw-bolder">Elige Tu plan</h2>
+      </div>
+      <div class="d-flex flex-row justify-content-center section-cards-plans">
+        <div class="d-flex flex-column justify-content-center align-items-center w-25 border border-primary m-5 p-5 border-5 rounded card-plans">
+          <h3 class="text-center text-secondary fs-4">FILMS+ MENSUAL</h3>
+          <h1 class="text-center fw-bolder mt-3">PEN 20.00/mes*</h1>
+          <p class="text-center text-secondary fs-5">Contrata el plan mensual de Films+ y disfruta de los ultimos estrenos del cine, originales y clasicos inolvidables.</p>
+          <button class="btn btn-lg btn-primary mt-3 w-75 p-3">SUSCRIBETE AHORA</button>
+        </div>
+        <div class="d-flex flex-column justify-content-center align-items-center w-25 border border-info m-5 p-5 border-5 rounded card-plans">
+          <h3 class="text-center text-secondary fs-4">FILMS+ ANUAL</h3>
+          <h1 class="text-center fw-bolder mt-3">PEN 259.90/año*</h1>
+          <p class="text-center text-secondary fs-5">Por precio único, todo un año de peliculas de Marvel, Paramount, Warner, Disney y otros.</p>
+          <button class="btn btn-lg btn-info mt-3 w-75 p-3">SUSCRIBETE AHORA</button>
+        </div>
+      </div>
+      <div class="d-flex justify-content-center align-items-center pt-5 p-3 mb-2">
+        <h5 class="text-white fs-6 text-center">* El precio podría variar en caso de que el pago se realice en otras monedas, plataformas o medios de pago. Podrían aplicar cargos de terceros.</h5>
+      </div>
+    </section>
+    <footer id="foot" class="d-flex flex-column text-secondary align-items-right justify-content-end p-5">
+      <div class="d-flex justify-content-center align-items-center text-white">
+        <a href="index.html" class="text-decoration-none"><img src="img/logo.png" class="img-logo-header" alt=""></a>
+      </div>
+      <div class="d-flex justify-content-center align-items-center mt-3 foot-index">
+        <ul class="d-flex justify-content-center align-items-center flex-row navbar-nav">
+          <li class="nav-item nav-item-foot"><a class="nav-link" href="#foot">Terminos de uso</a></li>
+          <li class="nav-item nav-item-foot ms-5"><a class="nav-link" href="#foot">Policita de privacidad</a></li>
+          <li class="nav-item nav-item-foot ms-5"><a class="nav-link" href="#foot">Publicidad personalizada</a></li>
+          <li class="nav-item nav-item-foot ms-5"><a class="nav-link" href="#foot">Dispositivos compatibles</a></li>
+          <li class="nav-item nav-item-foot ms-5"><a class="nav-link" href="#foot">Ayuda</a></li>
+          <li class="nav-item nav-item-foot ms-5"><a class="nav-link" href="#foot">Acerca de Diseny+</a></li>
+        </ul>
+      </div>
+      <div class="mt-4 d-flex justify-content-center align-items-center"> ©2022 Films+ Todos los derechos Reservados</div>
+    </footer>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+</body>
+</html>

@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: 'Roboto',sans-serif;
+}
+
+.body-index{
+    background-color: #080918;
+    width: 100% !important;
+}
+
+.header-index{
+    width: 100vw !important;
+    height: 10vh;
+    position: fixed;
+    display: flex;
+    justify-content: space-between !important;
+    background-color: #080918;
+    z-index: 1;
+}
+
+.img-logo-header{
+    width: 80%;
+}
+
+.logo-header-login{
+    width: 90%;
+}
+
+.buttons-header{
+    padding-right: 2vw;
+}
+
+.main-index{
+    height: 90vh;
+}
+
+.div-index-main-absol{
+    width: 60vw !important;
+    right: 0;
+}
+
+.div-index-main{
+    width: 40vw !important;
+}
+
+
+.section-ancla{
+    height: 10vh;
+}
+
+.section-plans{
+    margin: 0;
+    padding: 5px;
+    box-sizing: border-box;
+    height: 90vh;
+}
+
+.img-logo:nth-child(1){
+    width: 90px;
+}
+
+.img-logo:nth-child(3){
+    width: 85px;
+    height: 60px;
+}
+
+.img-logo:nth-child(2){
+    width: 70px;
+}
+
+.img-logo:nth-child(4){
+    width: 90px;
+}
+
+.img-logo:nth-child(5){
+    width: 70px;
+}
+
+footer{
+    margin: 0;
+    padding: 5px;
+    box-sizing: border-box;
+    height: 40vh;
+}
+
+/* Estilos pagina login-page.php */
+
+.body-login-page-php{
+    background-color: #111331;
+}
+
+.login-page-form{
+    height: auto;
+}
+
+/* Estilos pagina home.php */
+
+.body-home{
+    background-color: #12141a;
+}
+
+.header-home{
+    width: 100vw;
+    height: 10vh;
+    position: fixed;
+    display: flex;
+    justify-content: space-between !important;
+    background-color: #12141a;
+    z-index: 10;
+}
+
+.main-home{
+    padding: 4vw 5vw 4vw 5vw;
+    height: 30vh;
+}
+
+.card-home{
+    width: 16vw;
+    height: 16vh;
+    color: white;
+    background-color: #1a1a25;
+    cursor: pointer;
+    box-shadow: -1px 4px 15px 8px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -1px 4px 15px 8px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 4px 15px 8px rgba(0,0,0,0.75);
+}
+
+.card-pixar{
+    width: 9vw;
+    transition: all 0.5s;
+}
+
+.card-paramount{
+    width: 6vw;
+    transition: all 0.5s;
+}
+
+.card-warner{
+    width: 7vw;
+    height: 11vh;
+    transition: all 0.5s;
+}
+
+.card-pixar:hover{
+    width: 10vw;
+    transition: all 0.5s;
+}
+
+.card-paramount:hover{
+    width: 7vw;
+    transition: all 0.5s;
+}
+
+.card-warner:hover{
+    width: 8vw;
+    height: 12vh;
+    transition: all 0.5s;
+}
+
+.section-home-1{
+    padding-left: 6vw;
+    padding-right: 6vw;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+}
+
+.card-films{
+    border-radius: 2px;
+    width: 8vw;
+    height: 20vh;
+    margin: -5px;
+    cursor: pointer;
+    box-shadow: -1px 4px 15px 8px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -1px 4px 15px 8px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 4px 15px 8px rgba(0,0,0,0.75);
+}
+
+.card-horizontal{
+    width: 20vw !important;
+}
+
+.card-films:hover{
+    border: 2px solid white;
+    transform: scale(1.1);
+    transition: 800ms;
+    box-shadow: 0px 9px 9px 6px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 9px 9px 6px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 9px 9px 6px rgba(0,0,0,0.75);
+}
+
+.header-nav-home{
+    height: 10vh !important;
+}
+
+#portada{
+    height: 60vh;
+    padding: 4vh 6vw 0vh 6vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#portada > div{
+    box-shadow: -1px 4px 15px 8px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -1px 4px 15px 8px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 4px 15px 8px rgba(0,0,0,0.75);
+}
+
+#portada > div:hover{
+    border: 3px solid white;
+    transition: 500ms;
+}
+
+.div-portada{
+    text-align: center !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.img-portada-slider{
+    height: 60vh !important;
+    width: 100% !important;
+}
+
+.custom-tooltip {
+    --bs-tooltip-bg: var(--bs-primary);
+}
